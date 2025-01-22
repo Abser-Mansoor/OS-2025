@@ -1,0 +1,22 @@
+1- apt-get is a command line interface for retrieval of packages
+and information about them from authenticated sources and
+for installation, upgrade and removal of packages together
+with their dependencies.
+
+2- YUM (Yellowdog Updater, Modified) is a command-line package-management
+utility for RPM-compatible Linux operating systems. It allows you to install 
+packages with the syntax, yum install [package] . It can also update, and 
+remove software.
+
+3- Wget is a command-line tool that makes it possible to download files from
+the internet directly to your active directory. It operates in the background,
+allowing tasks to continue even if you're offline
+
+4- Tar and Gzip are two of the most common utilities for archiving and 
+compressing files. More specificly, tar is used for archiving and gzip is 
+used for compression, however the two are most often used in conjunction.
+
+5- The rar command in Linux is used to work with RAR archives. 
+RAR (Roshal ARchive) is a proprietary archive file format that supports data 
+compression, error recovery, and file spanning. The rar command allows you to 
+create, extract, and manage RAR archive files. 
