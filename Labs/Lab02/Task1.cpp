@@ -4,7 +4,7 @@ using namespace std;
 
 int main(int argc, char* arg[]) {
         if (argc < 2) return 1;
-        int arr[atoi(arg[1])];
+        int* arr = new int[atoi(arg[1])];
         int sum = 0;
         for (int i = 0; i < atoi(arg[1]); i++) {
                 arr[i] = atoi(arg[i+2]);
