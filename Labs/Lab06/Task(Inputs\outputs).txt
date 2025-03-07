@@ -1,0 +1,8 @@
+gcc producer.c -o producer
+gcc consumer.c -o consumer
+./consumer
+./producer
+Producer: Enter a message: Hello from Producer!
+Producer: Message sent!
+Consumer: Received message: Hello from Producer!
+rm myfifo
