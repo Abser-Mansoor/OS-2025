@@ -22,6 +22,8 @@ int main() {
     }
 
     if (pid > 0) {
+        printf("Parent process (PID: %d)\n", getpid());
+        printf("Child process (PID: %d)\n", pid);
         close(fd[0]);
 
         printf("Enter a message to write into the pipe: ");
@@ -31,6 +33,7 @@ int main() {
 
         close(fd[1]);
     } else {
+        printf("Child process running (PID: %d, Parent PID: %d)\n", getpid(), getppid());
         close(fd[1]);
 
         read(fd[0], read_msg, sizeof(read_msg));
