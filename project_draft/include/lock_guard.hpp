@@ -2,9 +2,9 @@
 #include <mutex>
 
 class LockGuard {
-    private:
+private:
     std::mutex& mutex_;
-    public:
+public:
     explicit LockGuard(std::mutex& mutex);
     ~LockGuard();
 };

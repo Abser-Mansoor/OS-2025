@@ -3,7 +3,7 @@
 
 class ConnectionHandler {
     MessageQueue& queue_;
-    public:
+public:
     ConnectionHandler(MessageQueue& queue);
     void handle(int client_fd);
 };

@@ -5,9 +5,7 @@
 class MessageProcessor {
     MessageQueue& queue_;
     ThreadSafeData& shared_data_;
-    
-    public:
-
+public:
     MessageProcessor(MessageQueue& queue, ThreadSafeData& data);
     void processMessages();
 };
